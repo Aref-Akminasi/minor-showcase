@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="417.541" height="133.365" viewBox="0 0 417.541 133.365">
+  <g id="notes-thijs-week2" transform="translate(-542.459 -805.21)">
+    <g id="Group_108" data-name="Group 108">
+      <g id="Group_55" data-name="Group 55" transform="translate(151 3.785)">
+        <rect id="Rectangle_118" data-name="Rectangle 118" width="100" height="100" transform="translate(402 814)" fill="#d9e2e3"/>
+        <g id="Group_50" data-name="Group 50">
+          <path id="Path_511" data-name="Path 511" d="M0,0H100s1.184,21.351,0,50.525S93.864,100,93.864,100H-9.541S-1.136,75.525,0,50.525,0,0,0,0Z" transform="translate(401 810)" fill="#f7e3a1"/>
+          <g id="Group_49" data-name="Group 49" transform="translate(-4.895 4.846)">
+            <path id="Subtraction_1" data-name="Subtraction 1" d="M4.52,6.849h0L0,1.452,2.238,0,5.344,6.354l-.823.495Z" transform="translate(454.283 806.281) rotate(7)" fill="#b4b4b4"/>
+            <ellipse id="Ellipse_55" data-name="Ellipse 55" cx="6.266" cy="4.924" rx="6.266" ry="4.924" transform="translate(447.951 804.599) rotate(-22)" fill="#d58b8b"/>
+            <path id="Path_512" data-name="Path 512" d="M.317-2.793,4.123,1.261A3.507,3.507,0,0,1,2.375,5.018a5.082,5.082,0,0,1-4.613,0L-3.582-.495Z" transform="translate(454.566 803.488)" fill="#e59090"/>
+            <ellipse id="Ellipse_54" data-name="Ellipse 54" cx="4.575" cy="3.673" rx="4.575" ry="3.673" transform="translate(447.515 800.007) rotate(-22)" fill="#e59797"/>
+          </g>
+        </g>
+      </g>
+      <text id="React" transform="translate(601 872)" fill="#1b1b1b" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.05em"><tspan x="-24.6" y="0">React</tspan></text>
+    </g>
+    <g id="Group_109" data-name="Group 109">
+      <g id="Group_57" data-name="Group 57" transform="translate(458 3.785)">
+        <rect id="Rectangle_118-2" data-name="Rectangle 118" width="100" height="100" transform="translate(402 814)" fill="#d9e2e3"/>
+        <g id="Group_50-2" data-name="Group 50">
+          <path id="Path_511-2" data-name="Path 511" d="M0,0H100s1.184,21.351,0,50.525S93.864,100,93.864,100H-9.541S-1.136,75.525,0,50.525,0,0,0,0Z" transform="translate(401 810)" fill="#f7e3a1"/>
+          <g id="Group_49-2" data-name="Group 49" transform="translate(-4.895 4.846)">
+            <path id="Subtraction_1-2" data-name="Subtraction 1" d="M4.52,6.849h0L0,1.452,2.238,0,5.344,6.354l-.823.495Z" transform="translate(454.283 806.281) rotate(7)" fill="#b4b4b4"/>
+            <ellipse id="Ellipse_55-2" data-name="Ellipse 55" cx="6.266" cy="4.924" rx="6.266" ry="4.924" transform="translate(447.951 804.599) rotate(-22)" fill="#d58b8b"/>
+            <path id="Path_512-2" data-name="Path 512" d="M.317-2.793,4.123,1.261A3.507,3.507,0,0,1,2.375,5.018a5.082,5.082,0,0,1-4.613,0L-3.582-.495Z" transform="translate(454.566 803.488)" fill="#e59090"/>
+            <ellipse id="Ellipse_54-2" data-name="Ellipse 54" cx="4.575" cy="3.673" rx="4.575" ry="3.673" transform="translate(447.515 800.007) rotate(-22)" fill="#e59797"/>
+          </g>
+        </g>
+      </g>
+      <text id="Scrum" transform="translate(908 870)" fill="#1b1b1b" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.05em"><tspan x="-27.488" y="0">Scrum</tspan></text>
+    </g>
+    <g id="Group_93" data-name="Group 93" transform="translate(-22 -1.837)">
+      <g id="Group_56" data-name="Group 56" transform="translate(686.459 827.837)">
+        <rect id="Rectangle_118-3" data-name="Rectangle 118" width="155.115" height="100" transform="translate(14.541 12.575)" fill="#d9e2e3"/>
+        <g id="Group_50-3" data-name="Group 50">
+          <path id="Path_511-3" data-name="Path 511" d="M5.165,0H159.3a379.288,379.288,0,0,1,0,50.525C157.478,79.7,149.845,100,149.845,100H-9.541S3.415,75.525,5.165,50.525A419.608,419.608,0,0,0,5.165,0Z" transform="translate(9.541 8.575)" fill="#f7e3a1"/>
+          <g id="Group_49-3" data-name="Group 49" transform="translate(84.828 0)">
+            <path id="Subtraction_1-3" data-name="Subtraction 1" d="M4.52,6.849h0L0,1.452,2.238,0,5.344,6.354l-.823.495Z" transform="translate(6.768 9.702) rotate(7)" fill="#b4b4b4"/>
+            <ellipse id="Ellipse_55-3" data-name="Ellipse 55" cx="6.266" cy="4.924" rx="6.266" ry="4.924" transform="translate(0.436 8.02) rotate(-22)" fill="#d58b8b"/>
+            <path id="Path_512-3" data-name="Path 512" d="M.317-2.793,4.123,1.261A3.507,3.507,0,0,1,2.375,5.018a5.082,5.082,0,0,1-4.613,0L-3.582-.495Z" transform="translate(7.051 6.909)" fill="#e59090"/>
+            <ellipse id="Ellipse_54-3" data-name="Ellipse 54" cx="4.575" cy="3.673" rx="4.575" ry="3.673" transform="translate(0 3.428) rotate(-22)" fill="#e59797"/>
+          </g>
+        </g>
+      </g>
+      <text id="Component_-based_Programming" data-name="Component
+-based
+Programming" transform="translate(778 864.625)" fill="#1b1b1b" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.05em"><tspan x="-51.48" y="0">Component</tspan><tspan x="-31.232" y="25">-based</tspan><tspan x="-59.536" y="50">Programming</tspan></text>
+    </g>
+  </g>
+</svg>

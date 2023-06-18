@@ -1,0 +1,571 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../project-fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url(../project-fonts/Poppins-Light.ttf);
+}
+
+.newtab_img {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.newtab_img:hover {
+  opacity: 0.8;
+  border-radius: 3rem;
+}
+
+.linkstyling {
+  color: black;
+  font-weight: bold;
+}
+
+body {
+  background-color: #f1fbfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 125rem;
+  margin: 0;
+  margin-top: 20rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.billboard-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.billboard-section .billboard-clouds .cloud1 {
+  position: absolute;
+  width: 28rem;
+  right: 15rem;
+}
+
+.billboard-section .billboard-clouds .cloud2 {
+  position: absolute;
+  width: 25rem;
+  right: 10rem;
+  top: 30rem;
+}
+
+.billboard-section .billboard-clouds .cloud3 {
+  position: absolute;
+  width: 23rem;
+  left: 20rem;
+}
+
+.billboard-section .billboard-clouds .cloud4 {
+  position: absolute;
+  width: 30rem;
+  left: 12rem;
+  top: 20rem;
+}
+
+.billboard-section .billboard-board-container {
+  position: relative;
+  bottom: 9.5rem;
+}
+
+.billboard-section .billboard-board-container .billboard-board {
+  width: 80rem;
+}
+
+.billboard-section .billboard-board-container .billboard-home {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.billboard-section .billboard-board-container .billboard-home a {
+  font-family: Poppins-Bold;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.billboard-section .billboard-board-container .billboard-home a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #070707;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.billboard-section .billboard-board-container .billboard-home a:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.billboard-section .billboard-board-container .billboard-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 35rem;
+  right: 5rem;
+  top: 10rem;
+}
+
+.billboard-section .billboard-board-container .billboard-text .billboard-title {
+  font-family: Poppins-Bold;
+  font-size: 2.5rem;
+}
+
+.billboard-section .billboard-board-container .billboard-text .billboard-desc {
+  font-family: Poppins-Light;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.billboard-section .billboard-board-container .billboard-vector {
+  position: absolute;
+  top: 12rem;
+  left: 7rem;
+}
+
+.billboard-section .billboard-board-container .billboard-vector .vector {
+  width: 22rem;
+}
+
+.billboard-section .billboard-board-container .billboard-linkedin {
+  position: absolute;
+  bottom: 19rem;
+  right: 4rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.billboard-section .billboard-board-container .billboard-linkedin .linkedin {
+  width: 2.5rem;
+}
+
+.billboard-section .billboard-board-container .billboard-linkedin:hover {
+  bottom: 19.5rem;
+}
+
+.billboard-section .billboard-footer-section {
+  position: absolute;
+  bottom: 0rem;
+  z-index: -1;
+}
+
+.billboard-section .billboard-footer-section .billboard-footer {
+  width: 120rem;
+}
+
+.nav-bar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar-container .nav-bar {
+  background-color: #fafafa;
+  width: 120rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-bar-container .nav-bar a {
+  margin: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.room1-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.room1-section .room1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 120rem;
+}
+
+.room1-section .room1-container .room1 {
+  width: 120rem;
+}
+
+.room1-section .room1-container .lamp {
+  position: absolute;
+  width: 10rem;
+  top: 2rem;
+}
+
+.room1-section .room1-container .room1-text-section {
+  position: absolute;
+  max-width: 50rem;
+  top: 6rem;
+  left: 12rem;
+}
+
+.room1-section .room1-container .room1-text-section .room1-text-title {
+  font-family: Poppins-Bold;
+  font-size: 2rem;
+}
+
+.room1-section .room1-container .room1-text-section .room1-text {
+  font-family: Poppins-Light;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.room1-section .room1-container .room1-photo-section {
+  position: absolute;
+  max-width: 40rem;
+  top: 8rem;
+  right: 12rem;
+}
+
+.room1-section .room1-container .room1-photo-section img {
+  margin: 0.5rem;
+  width: 40rem;
+}
+
+.room1-section .room1-container .room1-notes-section {
+  position: absolute;
+  bottom: 3rem;
+  left: 27rem;
+}
+
+.room1-section .room1-container .room1-notes-section img {
+  width: 40rem;
+}
+
+.room1-section .room1-container .room1-left-section {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+}
+
+.room1-section .room1-container .room1-left-section img {
+  width: 15rem;
+}
+
+.room1-section .room1-container .room1-right-section {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 7rem;
+}
+
+.room1-section .room1-container .room1-right-section img {
+  width: 6rem;
+}
+
+.room2-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.room2-section .room2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 120rem;
+}
+
+.room2-section .room2-container .room2 {
+  width: 120rem;
+}
+
+.room2-section .room2-container .lamp {
+  position: absolute;
+  width: 10rem;
+  top: 2rem;
+}
+
+.room2-section .room2-container .room2-text-section {
+  position: absolute;
+  max-width: 50rem;
+  top: 6rem;
+  left: 12rem;
+}
+
+.room2-section .room2-container .room2-text-section .room2-text-title {
+  font-family: Poppins-Bold;
+  font-size: 2rem;
+}
+
+.room2-section .room2-container .room2-text-section .room2-text {
+  font-family: Poppins-Light;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.room2-section .room2-container .room2-photo-section {
+  position: absolute;
+  max-width: 40rem;
+  top: 8rem;
+  right: 12rem;
+}
+
+.room2-section .room2-container .room2-photo-section iframe {
+  width: 40rem;
+  height: 30rem;
+}
+
+.room2-section .room2-container .room2-notes-section {
+  position: absolute;
+  bottom: 8rem;
+  left: 27rem;
+}
+
+.room2-section .room2-container .room2-notes-section img {
+  width: 40rem;
+}
+
+.room2-section .room2-container .room2-left-section {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+}
+
+.room2-section .room2-container .room2-left-section img {
+  width: 7rem;
+}
+
+.room2-section .room2-container .room2-right-section {
+  position: absolute;
+  bottom: 0rem;
+  right: 5rem;
+}
+
+.room2-section .room2-container .room2-right-section img {
+  width: 25rem;
+}
+
+.room3-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.room3-section .room3-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 120rem;
+}
+
+.room3-section .room3-container .room3 {
+  width: 120rem;
+}
+
+.room3-section .room3-container .lamp {
+  position: absolute;
+  width: 10rem;
+  top: 2rem;
+}
+
+.room3-section .room3-container .room3-text-section {
+  position: absolute;
+  max-width: 50rem;
+  top: 6rem;
+  left: 12rem;
+}
+
+.room3-section .room3-container .room3-text-section .room3-text-title {
+  font-family: Poppins-Bold;
+  font-size: 2rem;
+}
+
+.room3-section .room3-container .room3-text-section .room3-text {
+  font-family: Poppins-Light;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.room3-section .room3-container .room3-photo-section {
+  position: absolute;
+  max-width: 40rem;
+  top: 18rem;
+  right: 12rem;
+}
+
+.room3-section .room3-container .room3-photo-section img {
+  width: 40rem;
+}
+
+.room3-section .room3-container .room3-notes-section {
+  position: absolute;
+  bottom: 3rem;
+  left: 27rem;
+}
+
+.room3-section .room3-container .room3-notes-section img {
+  width: 40rem;
+}
+
+.room3-section .room3-container .room3-left-section {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+}
+
+.room3-section .room3-container .room3-left-section img {
+  width: 7rem;
+}
+
+.room3-section .room3-container .room3-right-section {
+  position: absolute;
+  bottom: 2rem;
+  right: 5rem;
+}
+
+.room3-section .room3-container .room3-right-section img {
+  width: 15rem;
+}
+
+.basement-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.basement-section .basement-container {
+  position: relative;
+}
+
+.basement-section .basement-container .basement {
+  width: 125rem;
+}
+
+.basement-section .basement-container .basement-left-section {
+  position: absolute;
+  left: 10rem;
+  bottom: 13rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.basement-section .basement-container .basement-left-section img {
+  width: 20rem;
+}
+
+.basement-section .basement-container .basement-left-section:hover {
+  left: 9rem;
+}
+
+.basement-section .basement-container .basement-right-section {
+  position: absolute;
+  right: 10rem;
+  bottom: 13rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.basement-section .basement-container .basement-right-section img {
+  width: 20rem;
+}
+
+.basement-section .basement-container .basement-right-section:hover {
+  right: 9rem;
+}
+
+.basement-section .basement-container .basement-back-to-top {
+  position: absolute;
+  right: 8rem;
+  bottom: 5rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.basement-section .basement-container .basement-back-to-top img {
+  width: 5rem;
+}
+
+.basement-section .basement-container .basement-back-to-top:hover {
+  bottom: 6rem;
+}
+/*# sourceMappingURL=Aref_projects_styles.css.map */

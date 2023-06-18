@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="276" height="408" viewBox="0 0 276 408">
+  <g id="Group_100" data-name="Group 100" transform="translate(-69 -465)">
+    <rect id="Rectangle_135" data-name="Rectangle 135" width="17" height="274" transform="translate(198 599)" fill="#b4b4b4"/>
+    <g id="Group_76" data-name="Group 76" transform="translate(69 464.768)">
+      <g id="Group_74" data-name="Group 74">
+        <rect id="Rectangle_125" data-name="Rectangle 125" width="276" height="179" rx="27" transform="translate(0 0.232)" fill="#8bbfcc"/>
+        <g id="Rectangle_126" data-name="Rectangle 126" transform="translate(7 5.232)" fill="none" stroke="#fafafa" stroke-width="5">
+          <rect width="264" height="126" rx="27" stroke="none"/>
+          <rect x="2.5" y="2.5" width="259" height="121" rx="24.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_75" data-name="Group 75" transform="translate(54.412 27.588)">
+        <rect id="Rectangle_127" data-name="Rectangle 127" width="114.615" height="20.804" transform="translate(52.752 31.611)" fill="#fff"/>
+        <path id="Path_521" data-name="Path 521" d="M40.367,63.233a1.976,1.976,0,0,0,3.29,0L83.691,3.071A1.976,1.976,0,0,0,82.045,0L41.679,7.673,1.979,0A1.976,1.976,0,0,0,.334,3.071Z" transform="translate(64.115 0) rotate(90)" fill="#fff"/>
+      </g>
+      <text id="Naar_Thijs_Plein" data-name="Naar Thijs Plein" transform="translate(138 160.232)" fill="#fafafa" font-size="23" font-family="Poppins-Regular, Poppins" letter-spacing="0.05em"><tspan x="-93.656" y="0">Naar Thijs Plein</tspan></text>
+    </g>
+  </g>
+</svg>
