@@ -1,4 +1,4 @@
-# minor-showcase
+# Minor showcase
 
 I made this project during my 'Visual Design & Front-End Development' minor at The Hague University of Applied Sciences. This was part of my Communication & Multi-media Design course.
 
